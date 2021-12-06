@@ -106,8 +106,136 @@
     <!--------   Header End ----  -->
 
 
-
-    
+    <!-- --------------Footer Section Start ------- -->
+    <footer id="contactUs" class="footer-area">
+        <div class="footer-shape shape-1"></div>
+        <div class="footer-shape shape-2"></div>
+        <div class="footer-shape shape-3"></div>
+        <div class="footer-shape shape-4"></div>
+        <div class="footer-shape shape-5"></div>
+        <div class="footer-shape shape-6"></div>
+        <div class="footer-widget pt-30 pb-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="footer-about mt-50">
+                            <a href="" class="logo">
+                                <img src="{{ url('') . $data->logo }}" alt="">
+                            </a>
+                            <p class="text">{{ $data->footer_desc }}
+                            </p>
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com/avatarsolution"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/avatarsolution"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/avatarsolution"><i
+                                            class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/avatar-solutions"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-4">
+                        <div class="footer-link d-flex flex-wrap">
+                            <div class="footer-link-wrapper mt-45">
+                                <div class="footer-title">
+                                    <h4 class="title">Features</h4>
+                                </div>
+                                <ul class="link">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/contact-us">Contact Us</a></li>
+                                    <li><a href="/#download">Download</a></li>
+                                    <li><a href="/terms-of-use">Terms of Use</a></li>
+                                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-link-wrapper mt-45">
+                                <div class="footer-title">
+                                    <h4 class="title">Our Address</h4>
+                                </div>
+                                <ul class="contact-list">
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="info-content media-body">
+                                                <p class="text"><i class="fas fa-phone-alt"></i>
+                                                    {{ $dataset->telepon }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="info-content media-body">
+                                                <p class="text">
+                                                    <a href="mailto:info@avatar.co.id"><i class="far fa-envelope"></i>
+                                                        info@avatar.co.id
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="info-content media-body">
+                                                <p class="text">
+                                                    <a href="https://avatar.co.id"><i class="fas fa-globe"></i>
+                                                        avatar.co.id
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="info-content media-body">
+                                                <p class="text"><i class="fas fa-map-marker-alt"></i>
+                                                    {{ $dataset->alamat }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="download-content">
+                            <ul>
+                                <li>
+                                    <a href="{{ $data->url_appstore }}" class="app-store">
+                                        <img src="landingpage/assets/img/download/app-store.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ $data->url_googleplay }}" class="play-store">
+                                        <img src="landingpage/assets/img/download/play-store.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="lo-lg-12">
+                            <div class="copyright">
+                                <div class="copyright-text text-center">
+                                    <p class="text">Copyright &#169;
+                                        <script>
+                                            document.write(new Date().getFullYear());
+                                        </script>
+                                        <a>Avatar Solution</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- --------------Footer Section End ------- -->
 
 
     <!-- ---- jquery Js ---- -->
